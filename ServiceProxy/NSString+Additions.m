@@ -7,7 +7,10 @@ static NSString *const kPNRFoundationCharactersToReplaceInURL = @";/:@$+{}<>,";
 
 - (NSString *)pnr_URLEncodedString
 {
-    return [self stringByAddingPercentEncodingWithAllowedCharacters: [NSCharacterSet characterSetWithCharactersInString: kPNRFoundationCharactersToReplaceInURL]];
+    NSMutableCharacterSet *mutableSet = [[NSMutableCharacterSet alloc] init];
+    [mutableSet formUnionWithCharacterSet: [NSCharacterSet URLQueryAllowedCharacterSet]];
+    [mutableSet removeCharactersInString: kPNRFoundationCharactersToReplaceInURL];
+    return [self stringByAddingPercentEncodingWithAllowedCharacters: mutableSet];
 }
 
 - (NSString *)pnr_stringByReplacingFirstOccurrenceOfString:(NSString *)stringToReplace withString:(NSString *)replacementString

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2BA716272C7B7A2800F126C9 /* ServiceProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA7161C2C7B7A2800F126C9 /* ServiceProxy.framework */; };
-		2BA7162C2C7B7A2800F126C9 /* ServiceProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA7162B2C7B7A2800F126C9 /* ServiceProxyTests.m */; };
 		2BA7162D2C7B7A2800F126C9 /* ServiceProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BA7161F2C7B7A2800F126C9 /* ServiceProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BA716422C7B864B00F126C9 /* PNRService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA716412C7B864B00F126C9 /* PNRService.m */; };
 		2BA716432C7B864B00F126C9 /* PNRServiceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA7163E2C7B864B00F126C9 /* PNRServiceProxy.m */; };
@@ -28,6 +27,14 @@
 		2BA716622C7BA00400F126C9 /* PNRServiceInvocationScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BA716372C7B864B00F126C9 /* PNRServiceInvocationScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BA716672C7BADBD00F126C9 /* PNRBlockDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BA716642C7BADBD00F126C9 /* PNRBlockDescription.h */; };
 		2BA716682C7BADBD00F126C9 /* PNRBlockDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA716652C7BADBD00F126C9 /* PNRBlockDescription.m */; };
+		2BA716772C7C621500F126C9 /* PNRSampleSuperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA716692C7C621500F126C9 /* PNRSampleSuperClass.m */; };
+		2BA716782C7C621500F126C9 /* PNRPropertyTestInvalidClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA7166B2C7C621500F126C9 /* PNRPropertyTestInvalidClass.m */; };
+		2BA716792C7C621500F126C9 /* PNRSampleClassWithArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA7166C2C7C621500F126C9 /* PNRSampleClassWithArray.m */; };
+		2BA7167A2C7C621500F126C9 /* PNRPropertyTestClassWithExcludedProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA7166E2C7C621500F126C9 /* PNRPropertyTestClassWithExcludedProperties.m */; };
+		2BA7167B2C7C621500F126C9 /* PNRPropertyInspectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA7166F2C7C621500F126C9 /* PNRPropertyInspectorTests.m */; };
+		2BA7167C2C7C621500F126C9 /* PNRSampleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA716732C7C621500F126C9 /* PNRSampleClass.m */; };
+		2BA7167D2C7C621500F126C9 /* PNRPropertyTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA716742C7C621500F126C9 /* PNRPropertyTestClass.m */; };
+		2BA7167E2C7C621500F126C9 /* PNRObjectPopulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA716762C7C621500F126C9 /* PNRObjectPopulatorTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +51,6 @@
 		2BA7161C2C7B7A2800F126C9 /* ServiceProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ServiceProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA7161F2C7B7A2800F126C9 /* ServiceProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceProxy.h; sourceTree = "<group>"; };
 		2BA716262C7B7A2800F126C9 /* ServiceProxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServiceProxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BA7162B2C7B7A2800F126C9 /* ServiceProxyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServiceProxyTests.m; sourceTree = "<group>"; };
 		2BA716362C7B864B00F126C9 /* PNRServiceInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNRServiceInfo.m; sourceTree = "<group>"; };
 		2BA716372C7B864B00F126C9 /* PNRServiceInvocationScope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNRServiceInvocationScope.h; sourceTree = "<group>"; };
 		2BA716382C7B864B00F126C9 /* PNRServiceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNRServiceManager.h; sourceTree = "<group>"; };
@@ -66,6 +72,20 @@
 		2BA7165D2C7B94F200F126C9 /* NSString+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
 		2BA716642C7BADBD00F126C9 /* PNRBlockDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRBlockDescription.h; sourceTree = "<group>"; };
 		2BA716652C7BADBD00F126C9 /* PNRBlockDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRBlockDescription.m; sourceTree = "<group>"; };
+		2BA716692C7C621500F126C9 /* PNRSampleSuperClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRSampleSuperClass.m; sourceTree = "<group>"; };
+		2BA7166A2C7C621500F126C9 /* PNRPropertyTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRPropertyTestClass.h; sourceTree = "<group>"; };
+		2BA7166B2C7C621500F126C9 /* PNRPropertyTestInvalidClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRPropertyTestInvalidClass.m; sourceTree = "<group>"; };
+		2BA7166C2C7C621500F126C9 /* PNRSampleClassWithArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRSampleClassWithArray.m; sourceTree = "<group>"; };
+		2BA7166D2C7C621500F126C9 /* PNRSampleClassWithArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRSampleClassWithArray.h; sourceTree = "<group>"; };
+		2BA7166E2C7C621500F126C9 /* PNRPropertyTestClassWithExcludedProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRPropertyTestClassWithExcludedProperties.m; sourceTree = "<group>"; };
+		2BA7166F2C7C621500F126C9 /* PNRPropertyInspectorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRPropertyInspectorTests.m; sourceTree = "<group>"; };
+		2BA716702C7C621500F126C9 /* PNRPropertyTestClassWithExcludedProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRPropertyTestClassWithExcludedProperties.h; sourceTree = "<group>"; };
+		2BA716712C7C621500F126C9 /* PNRPropertyTestInvalidClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRPropertyTestInvalidClass.h; sourceTree = "<group>"; };
+		2BA716722C7C621500F126C9 /* PNRSampleClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRSampleClass.h; sourceTree = "<group>"; };
+		2BA716732C7C621500F126C9 /* PNRSampleClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRSampleClass.m; sourceTree = "<group>"; };
+		2BA716742C7C621500F126C9 /* PNRPropertyTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRPropertyTestClass.m; sourceTree = "<group>"; };
+		2BA716752C7C621500F126C9 /* PNRSampleSuperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRSampleSuperClass.h; sourceTree = "<group>"; };
+		2BA716762C7C621500F126C9 /* PNRObjectPopulatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRObjectPopulatorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +156,20 @@
 		2BA7162A2C7B7A2800F126C9 /* ServiceProxyTests */ = {
 			isa = PBXGroup;
 			children = (
-				2BA7162B2C7B7A2800F126C9 /* ServiceProxyTests.m */,
+				2BA716762C7C621500F126C9 /* PNRObjectPopulatorTests.m */,
+				2BA7166F2C7C621500F126C9 /* PNRPropertyInspectorTests.m */,
+				2BA7166A2C7C621500F126C9 /* PNRPropertyTestClass.h */,
+				2BA716742C7C621500F126C9 /* PNRPropertyTestClass.m */,
+				2BA716702C7C621500F126C9 /* PNRPropertyTestClassWithExcludedProperties.h */,
+				2BA7166E2C7C621500F126C9 /* PNRPropertyTestClassWithExcludedProperties.m */,
+				2BA716712C7C621500F126C9 /* PNRPropertyTestInvalidClass.h */,
+				2BA7166B2C7C621500F126C9 /* PNRPropertyTestInvalidClass.m */,
+				2BA716722C7C621500F126C9 /* PNRSampleClass.h */,
+				2BA716732C7C621500F126C9 /* PNRSampleClass.m */,
+				2BA7166D2C7C621500F126C9 /* PNRSampleClassWithArray.h */,
+				2BA7166C2C7C621500F126C9 /* PNRSampleClassWithArray.m */,
+				2BA716752C7C621500F126C9 /* PNRSampleSuperClass.h */,
+				2BA716692C7C621500F126C9 /* PNRSampleSuperClass.m */,
 			);
 			path = ServiceProxyTests;
 			sourceTree = "<group>";
@@ -283,7 +316,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BA7162C2C7B7A2800F126C9 /* ServiceProxyTests.m in Sources */,
+				2BA7167E2C7C621500F126C9 /* PNRObjectPopulatorTests.m in Sources */,
+				2BA716782C7C621500F126C9 /* PNRPropertyTestInvalidClass.m in Sources */,
+				2BA7167B2C7C621500F126C9 /* PNRPropertyInspectorTests.m in Sources */,
+				2BA7167D2C7C621500F126C9 /* PNRPropertyTestClass.m in Sources */,
+				2BA716792C7C621500F126C9 /* PNRSampleClassWithArray.m in Sources */,
+				2BA7167C2C7C621500F126C9 /* PNRSampleClass.m in Sources */,
+				2BA716772C7C621500F126C9 /* PNRSampleSuperClass.m in Sources */,
+				2BA7167A2C7C621500F126C9 /* PNRPropertyTestClassWithExcludedProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
