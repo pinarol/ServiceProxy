@@ -5,7 +5,11 @@ typedef NS_ENUM(NSUInteger, PNRRequestMethod)
     PNRRequestMethodGET = 0,
     PNRRequestMethodPOST,
     PNRRequestMethodPUT,
-    PNRRequestMethodDELETE
+    PNRRequestMethodDELETE,
+    PNRRequestMethodPATCH,
+    PNRRequestMethodHEAD,
+    PNRRequestMethodOPTIONS,
+    PNRRequestMethodTRACE
 };
 
 @interface PNRServiceInfo : NSObject

@@ -90,32 +90,8 @@ static NSInteger const kPNRServiceProxyResponseClassNameIndexFromEnd = 3;
         void (^PNRServiceProxyResponseCompletion)(NSError *error, NSDictionary *data) = ^(NSError *error, NSDictionary *data) {
             [self handleResponseWithError:error serviceInvocationScope:serviceInvocationScope responseData:data responseClassName:responseClassName responseBlock:completionBlock method:invocation.selector];
         };
-        switch (serviceInfo.requestMethod)
-        {
-            case PNRRequestMethodGET:
-            {
-                [[self networkManager] GET:url parameters:requestBodyDict  completion:PNRServiceProxyResponseCompletion];
-                break;
-            }
-
-            case PNRRequestMethodPOST:
-            {
-                [[self networkManager] POST:url parameters:requestBodyDict  completion:PNRServiceProxyResponseCompletion];
-                break;
-            }
-
-            case PNRRequestMethodPUT:
-            {
-                [[self networkManager] PUT:url parameters:requestBodyDict completion:PNRServiceProxyResponseCompletion];
-                break;
-            }
-
-            case PNRRequestMethodDELETE:
-            {
-                [[self networkManager] DELETE:url parameters:requestBodyDict completion:PNRServiceProxyResponseCompletion];
-                break;
-            }
-        }
+        
+        [[self networkManager] requestWithURLString:url method:serviceInfo.requestMethod httpBody:requestBodyDict completion:PNRServiceProxyResponseCompletion];
     }
     //[invocation invokeWithTarget:self.object]; //if the target method needs to be called in the future uncomment here
 }
