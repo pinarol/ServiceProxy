@@ -1,0 +1,21 @@
+{
+    "meta" : {
+        "success" : true
+    },
+    "record" : {
+        "recordId" : 4,
+        "vendor" : {
+            "vendorId" : "2423",
+            "name": "vodafone",
+            "complexity" : "SIMPLE"
+        },
+        "description" : "Payment record",
+        "paymentAmountLabel" : "123 451 234 512,00 KZT",
+        "paymentAmount" : {
+            "amount" : 123451234512,
+            "currency" : "KZT",
+            "formattedAmountWithCurrency" : "123 451 234 512,00 KZT",
+            "formattedAmount" : "123 451 234 512,00"
+        }
+    }
+}
