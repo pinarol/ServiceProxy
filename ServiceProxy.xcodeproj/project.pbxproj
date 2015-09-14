@@ -12,6 +12,27 @@
 		2B7206082C95B521007F1AC1 /* NSObject+PNRPropertyInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7206042C95B521007F1AC1 /* NSObject+PNRPropertyInspector.h */; };
 		2B7206092C95B521007F1AC1 /* PNRObjectPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7206052C95B521007F1AC1 /* PNRObjectPopulator.m */; };
 		2B72060A2C95B521007F1AC1 /* PNRObjectPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7206062C95B521007F1AC1 /* PNRObjectPopulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B72060D2C95BC95007F1AC1 /* SamplePaymentsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B72060C2C95BC95007F1AC1 /* SamplePaymentsService.m */; };
+		2B72061E2C95BE47007F1AC1 /* PNRBaseRequestPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7206102C95BE47007F1AC1 /* PNRBaseRequestPopulator.m */; };
+		2B72061F2C95BE47007F1AC1 /* PNRErrorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7206122C95BE47007F1AC1 /* PNRErrorModel.m */; };
+		2B7206202C95BE47007F1AC1 /* PNRMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7206142C95BE47007F1AC1 /* PNRMessage.m */; };
+		2B7206212C95BE47007F1AC1 /* PNRMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7206162C95BE47007F1AC1 /* PNRMeta.m */; };
+		2B7206222C95BE47007F1AC1 /* PNRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7206182C95BE47007F1AC1 /* PNRModel.m */; };
+		2B7206232C95BE47007F1AC1 /* PNRRequestBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B72061A2C95BE47007F1AC1 /* PNRRequestBody.m */; };
+		2B7206242C95BE47007F1AC1 /* PNRResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B72061C2C95BE47007F1AC1 /* PNRResponse.m */; };
+		2B72062E2C95C020007F1AC1 /* PNRPaymentFieldValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7206282C95C020007F1AC1 /* PNRPaymentFieldValue.m */; };
+		2B72062F2C95C020007F1AC1 /* PNRCreatePrePaymentRecordRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B72062A2C95C020007F1AC1 /* PNRCreatePrePaymentRecordRequest.m */; };
+		2B7206302C95C020007F1AC1 /* PNRCreatePrePaymentRecordResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B72062D2C95C020007F1AC1 /* PNRCreatePrePaymentRecordResponse.m */; };
+		2B7206392C95C13C007F1AC1 /* PNRVendor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7206332C95C13C007F1AC1 /* PNRVendor.m */; };
+		2B72063A2C95C13C007F1AC1 /* PNRNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7206342C95C13C007F1AC1 /* PNRNumber.m */; };
+		2B72063B2C95C13C007F1AC1 /* PNRMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7206362C95C13C007F1AC1 /* PNRMoney.m */; };
+		2B7206402C95C354007F1AC1 /* MockNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B72063F2C95C354007F1AC1 /* MockNetworkManager.m */; };
+		2B7206462C95F404007F1AC1 /* CreatePrePaymentRecordResponse1.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B7206452C95F404007F1AC1 /* CreatePrePaymentRecordResponse1.json */; };
+		2B7206492C95F460007F1AC1 /* PNRPaymentRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7206472C95F460007F1AC1 /* PNRPaymentRecord.m */; };
+		2B72064D2C95F693007F1AC1 /* JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B72064C2C95F693007F1AC1 /* JSONParser.m */; };
+		2B72064F2C95F7EF007F1AC1 /* JSONParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B72064E2C95F7EF007F1AC1 /* JSONParserTests.m */; };
+		2B7206522C95FA4B007F1AC1 /* MockServiceConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7206512C95FA4B007F1AC1 /* MockServiceConfiguration.m */; };
+		2B7206542C95FADA007F1AC1 /* ServiceManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7206532C95FADA007F1AC1 /* ServiceManagerTests.m */; };
 		2BA716272C7B7A2800F126C9 /* ServiceProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA7161C2C7B7A2800F126C9 /* ServiceProxy.framework */; };
 		2BA7162D2C7B7A2800F126C9 /* ServiceProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BA7161F2C7B7A2800F126C9 /* ServiceProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BA716422C7B864B00F126C9 /* PNRService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA716412C7B864B00F126C9 /* PNRService.m */; };
@@ -53,6 +74,45 @@
 		2B7206042C95B521007F1AC1 /* NSObject+PNRPropertyInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PNRPropertyInspector.h"; sourceTree = "<group>"; };
 		2B7206052C95B521007F1AC1 /* PNRObjectPopulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRObjectPopulator.m; sourceTree = "<group>"; };
 		2B7206062C95B521007F1AC1 /* PNRObjectPopulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRObjectPopulator.h; sourceTree = "<group>"; };
+		2B72060C2C95BC95007F1AC1 /* SamplePaymentsService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamplePaymentsService.m; sourceTree = "<group>"; };
+		2B72060E2C95BCA6007F1AC1 /* SamplePaymentsService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamplePaymentsService.h; sourceTree = "<group>"; };
+		2B72060F2C95BE47007F1AC1 /* PNRBaseRequestPopulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRBaseRequestPopulator.h; sourceTree = "<group>"; };
+		2B7206102C95BE47007F1AC1 /* PNRBaseRequestPopulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRBaseRequestPopulator.m; sourceTree = "<group>"; };
+		2B7206112C95BE47007F1AC1 /* PNRErrorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRErrorModel.h; sourceTree = "<group>"; };
+		2B7206122C95BE47007F1AC1 /* PNRErrorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRErrorModel.m; sourceTree = "<group>"; };
+		2B7206132C95BE47007F1AC1 /* PNRMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRMessage.h; sourceTree = "<group>"; };
+		2B7206142C95BE47007F1AC1 /* PNRMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRMessage.m; sourceTree = "<group>"; };
+		2B7206152C95BE47007F1AC1 /* PNRMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRMeta.h; sourceTree = "<group>"; };
+		2B7206162C95BE47007F1AC1 /* PNRMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRMeta.m; sourceTree = "<group>"; };
+		2B7206172C95BE47007F1AC1 /* PNRModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRModel.h; sourceTree = "<group>"; };
+		2B7206182C95BE47007F1AC1 /* PNRModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRModel.m; sourceTree = "<group>"; };
+		2B7206192C95BE47007F1AC1 /* PNRRequestBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRRequestBody.h; sourceTree = "<group>"; };
+		2B72061A2C95BE47007F1AC1 /* PNRRequestBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRRequestBody.m; sourceTree = "<group>"; };
+		2B72061B2C95BE47007F1AC1 /* PNRResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRResponse.h; sourceTree = "<group>"; };
+		2B72061C2C95BE47007F1AC1 /* PNRResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRResponse.m; sourceTree = "<group>"; };
+		2B7206282C95C020007F1AC1 /* PNRPaymentFieldValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PNRPaymentFieldValue.m; path = ServiceProxyTests/Service/Models/PNRPaymentFieldValue.m; sourceTree = SOURCE_ROOT; };
+		2B7206292C95C020007F1AC1 /* PNRPaymentFieldValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PNRPaymentFieldValue.h; path = ServiceProxyTests/Service/Models/PNRPaymentFieldValue.h; sourceTree = SOURCE_ROOT; };
+		2B72062A2C95C020007F1AC1 /* PNRCreatePrePaymentRecordRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PNRCreatePrePaymentRecordRequest.m; path = ServiceProxyTests/Service/RequestResponseModels/PNRCreatePrePaymentRecordRequest.m; sourceTree = SOURCE_ROOT; };
+		2B72062B2C95C020007F1AC1 /* PNRCreatePrePaymentRecordResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PNRCreatePrePaymentRecordResponse.h; path = ServiceProxyTests/Service/RequestResponseModels/PNRCreatePrePaymentRecordResponse.h; sourceTree = SOURCE_ROOT; };
+		2B72062C2C95C020007F1AC1 /* PNRCreatePrePaymentRecordRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PNRCreatePrePaymentRecordRequest.h; path = ServiceProxyTests/Service/RequestResponseModels/PNRCreatePrePaymentRecordRequest.h; sourceTree = SOURCE_ROOT; };
+		2B72062D2C95C020007F1AC1 /* PNRCreatePrePaymentRecordResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PNRCreatePrePaymentRecordResponse.m; path = ServiceProxyTests/Service/RequestResponseModels/PNRCreatePrePaymentRecordResponse.m; sourceTree = SOURCE_ROOT; };
+		2B7206332C95C13C007F1AC1 /* PNRVendor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRVendor.m; sourceTree = "<group>"; };
+		2B7206342C95C13C007F1AC1 /* PNRNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRNumber.m; sourceTree = "<group>"; };
+		2B7206352C95C13C007F1AC1 /* PNRNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRNumber.h; sourceTree = "<group>"; };
+		2B7206362C95C13C007F1AC1 /* PNRMoney.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRMoney.m; sourceTree = "<group>"; };
+		2B7206372C95C13C007F1AC1 /* PNRVendor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRVendor.h; sourceTree = "<group>"; };
+		2B7206382C95C13C007F1AC1 /* PNRMoney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRMoney.h; sourceTree = "<group>"; };
+		2B72063E2C95C354007F1AC1 /* MockNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockNetworkManager.h; sourceTree = "<group>"; };
+		2B72063F2C95C354007F1AC1 /* MockNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockNetworkManager.m; sourceTree = "<group>"; };
+		2B7206452C95F404007F1AC1 /* CreatePrePaymentRecordResponse1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CreatePrePaymentRecordResponse1.json; sourceTree = "<group>"; };
+		2B7206472C95F460007F1AC1 /* PNRPaymentRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRPaymentRecord.m; sourceTree = "<group>"; };
+		2B7206482C95F460007F1AC1 /* PNRPaymentRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRPaymentRecord.h; sourceTree = "<group>"; };
+		2B72064B2C95F693007F1AC1 /* JSONParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
+		2B72064C2C95F693007F1AC1 /* JSONParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONParser.m; sourceTree = "<group>"; };
+		2B72064E2C95F7EF007F1AC1 /* JSONParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONParserTests.m; sourceTree = "<group>"; };
+		2B7206502C95FA4B007F1AC1 /* MockServiceConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockServiceConfiguration.h; sourceTree = "<group>"; };
+		2B7206512C95FA4B007F1AC1 /* MockServiceConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockServiceConfiguration.m; sourceTree = "<group>"; };
+		2B7206532C95FADA007F1AC1 /* ServiceManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServiceManagerTests.m; sourceTree = "<group>"; };
 		2BA7161C2C7B7A2800F126C9 /* ServiceProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ServiceProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA7161F2C7B7A2800F126C9 /* ServiceProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceProxy.h; sourceTree = "<group>"; };
 		2BA716262C7B7A2800F126C9 /* ServiceProxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServiceProxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +167,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B72060B2C95BC6F007F1AC1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2B72064A2C95F67D007F1AC1 /* JSONParse */,
+				2B7206442C95F3DC007F1AC1 /* Mock */,
+				2B72063D2C95C329007F1AC1 /* NetworkManager */,
+				2B72063C2C95C1BA007F1AC1 /* RequestResponseModels */,
+				2B7206322C95C0D4007F1AC1 /* Models */,
+				2B72061D2C95BE47007F1AC1 /* Base */,
+				2B72060E2C95BCA6007F1AC1 /* SamplePaymentsService.h */,
+				2B72060C2C95BC95007F1AC1 /* SamplePaymentsService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2B72061D2C95BE47007F1AC1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2B72060F2C95BE47007F1AC1 /* PNRBaseRequestPopulator.h */,
+				2B7206102C95BE47007F1AC1 /* PNRBaseRequestPopulator.m */,
+				2B7206112C95BE47007F1AC1 /* PNRErrorModel.h */,
+				2B7206122C95BE47007F1AC1 /* PNRErrorModel.m */,
+				2B7206132C95BE47007F1AC1 /* PNRMessage.h */,
+				2B7206142C95BE47007F1AC1 /* PNRMessage.m */,
+				2B7206152C95BE47007F1AC1 /* PNRMeta.h */,
+				2B7206162C95BE47007F1AC1 /* PNRMeta.m */,
+				2B7206172C95BE47007F1AC1 /* PNRModel.h */,
+				2B7206182C95BE47007F1AC1 /* PNRModel.m */,
+				2B7206192C95BE47007F1AC1 /* PNRRequestBody.h */,
+				2B72061A2C95BE47007F1AC1 /* PNRRequestBody.m */,
+				2B72061B2C95BE47007F1AC1 /* PNRResponse.h */,
+				2B72061C2C95BE47007F1AC1 /* PNRResponse.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2B7206322C95C0D4007F1AC1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B7206482C95F460007F1AC1 /* PNRPaymentRecord.h */,
+				2B7206472C95F460007F1AC1 /* PNRPaymentRecord.m */,
+				2B7206382C95C13C007F1AC1 /* PNRMoney.h */,
+				2B7206362C95C13C007F1AC1 /* PNRMoney.m */,
+				2B7206352C95C13C007F1AC1 /* PNRNumber.h */,
+				2B7206342C95C13C007F1AC1 /* PNRNumber.m */,
+				2B7206372C95C13C007F1AC1 /* PNRVendor.h */,
+				2B7206332C95C13C007F1AC1 /* PNRVendor.m */,
+				2B7206292C95C020007F1AC1 /* PNRPaymentFieldValue.h */,
+				2B7206282C95C020007F1AC1 /* PNRPaymentFieldValue.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2B72063C2C95C1BA007F1AC1 /* RequestResponseModels */ = {
+			isa = PBXGroup;
+			children = (
+				2B72062C2C95C020007F1AC1 /* PNRCreatePrePaymentRecordRequest.h */,
+				2B72062A2C95C020007F1AC1 /* PNRCreatePrePaymentRecordRequest.m */,
+				2B72062B2C95C020007F1AC1 /* PNRCreatePrePaymentRecordResponse.h */,
+				2B72062D2C95C020007F1AC1 /* PNRCreatePrePaymentRecordResponse.m */,
+			);
+			path = RequestResponseModels;
+			sourceTree = "<group>";
+		};
+		2B72063D2C95C329007F1AC1 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				2B72063E2C95C354007F1AC1 /* MockNetworkManager.h */,
+				2B72063F2C95C354007F1AC1 /* MockNetworkManager.m */,
+				2B7206502C95FA4B007F1AC1 /* MockServiceConfiguration.h */,
+				2B7206512C95FA4B007F1AC1 /* MockServiceConfiguration.m */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		2B7206442C95F3DC007F1AC1 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				2B7206452C95F404007F1AC1 /* CreatePrePaymentRecordResponse1.json */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		2B72064A2C95F67D007F1AC1 /* JSONParse */ = {
+			isa = PBXGroup;
+			children = (
+				2B72064B2C95F693007F1AC1 /* JSONParser.h */,
+				2B72064C2C95F693007F1AC1 /* JSONParser.m */,
+			);
+			path = JSONParse;
+			sourceTree = "<group>";
+		};
 		2BA716122C7B7A2800F126C9 = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +308,7 @@
 		2BA7162A2C7B7A2800F126C9 /* ServiceProxyTests */ = {
 			isa = PBXGroup;
 			children = (
+				2B72060B2C95BC6F007F1AC1 /* Service */,
 				2BA716762C7C621500F126C9 /* PNRObjectPopulatorTests.m */,
 				2BA7166F2C7C621500F126C9 /* PNRPropertyInspectorTests.m */,
 				2BA7166A2C7C621500F126C9 /* PNRPropertyTestClass.h */,
@@ -170,6 +323,8 @@
 				2BA7166C2C7C621500F126C9 /* PNRSampleClassWithArray.m */,
 				2BA716752C7C621500F126C9 /* PNRSampleSuperClass.h */,
 				2BA716692C7C621500F126C9 /* PNRSampleSuperClass.m */,
+				2B72064E2C95F7EF007F1AC1 /* JSONParserTests.m */,
+				2B7206532C95FADA007F1AC1 /* ServiceManagerTests.m */,
 			);
 			path = ServiceProxyTests;
 			sourceTree = "<group>";
@@ -289,6 +444,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B7206462C95F404007F1AC1 /* CreatePrePaymentRecordResponse1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,14 +472,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B7206242C95BE47007F1AC1 /* PNRResponse.m in Sources */,
 				2BA7167E2C7C621500F126C9 /* PNRObjectPopulatorTests.m in Sources */,
+				2B72062E2C95C020007F1AC1 /* PNRPaymentFieldValue.m in Sources */,
+				2B7206492C95F460007F1AC1 /* PNRPaymentRecord.m in Sources */,
 				2BA716782C7C621500F126C9 /* PNRPropertyTestInvalidClass.m in Sources */,
+				2B7206212C95BE47007F1AC1 /* PNRMeta.m in Sources */,
+				2B7206392C95C13C007F1AC1 /* PNRVendor.m in Sources */,
+				2B7206542C95FADA007F1AC1 /* ServiceManagerTests.m in Sources */,
+				2B72063B2C95C13C007F1AC1 /* PNRMoney.m in Sources */,
 				2BA7167B2C7C621500F126C9 /* PNRPropertyInspectorTests.m in Sources */,
+				2B7206302C95C020007F1AC1 /* PNRCreatePrePaymentRecordResponse.m in Sources */,
+				2B72064F2C95F7EF007F1AC1 /* JSONParserTests.m in Sources */,
+				2B72060D2C95BC95007F1AC1 /* SamplePaymentsService.m in Sources */,
 				2BA7167D2C7C621500F126C9 /* PNRPropertyTestClass.m in Sources */,
+				2B7206232C95BE47007F1AC1 /* PNRRequestBody.m in Sources */,
+				2B7206522C95FA4B007F1AC1 /* MockServiceConfiguration.m in Sources */,
+				2B72064D2C95F693007F1AC1 /* JSONParser.m in Sources */,
+				2B7206202C95BE47007F1AC1 /* PNRMessage.m in Sources */,
+				2B72061E2C95BE47007F1AC1 /* PNRBaseRequestPopulator.m in Sources */,
+				2B72062F2C95C020007F1AC1 /* PNRCreatePrePaymentRecordRequest.m in Sources */,
 				2BA716792C7C621500F126C9 /* PNRSampleClassWithArray.m in Sources */,
+				2B72063A2C95C13C007F1AC1 /* PNRNumber.m in Sources */,
 				2BA7167C2C7C621500F126C9 /* PNRSampleClass.m in Sources */,
 				2BA716772C7C621500F126C9 /* PNRSampleSuperClass.m in Sources */,
+				2B7206222C95BE47007F1AC1 /* PNRModel.m in Sources */,
 				2BA7167A2C7C621500F126C9 /* PNRPropertyTestClassWithExcludedProperties.m in Sources */,
+				2B7206402C95C354007F1AC1 /* MockNetworkManager.m in Sources */,
+				2B72061F2C95BE47007F1AC1 /* PNRErrorModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
