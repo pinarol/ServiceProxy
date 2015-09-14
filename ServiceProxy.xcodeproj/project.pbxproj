@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B7206022C9596A7007F1AC1 /* PNRNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7206012C9596A7007F1AC1 /* PNRNetworkManager.h */; };
+		2B7206022C9596A7007F1AC1 /* PNRNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7206012C9596A7007F1AC1 /* PNRNetworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B7206072C95B521007F1AC1 /* NSObject+PNRPropertyInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7206032C95B521007F1AC1 /* NSObject+PNRPropertyInspector.m */; };
+		2B7206082C95B521007F1AC1 /* NSObject+PNRPropertyInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7206042C95B521007F1AC1 /* NSObject+PNRPropertyInspector.h */; };
+		2B7206092C95B521007F1AC1 /* PNRObjectPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7206052C95B521007F1AC1 /* PNRObjectPopulator.m */; };
+		2B72060A2C95B521007F1AC1 /* PNRObjectPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7206062C95B521007F1AC1 /* PNRObjectPopulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BA716272C7B7A2800F126C9 /* ServiceProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA7161C2C7B7A2800F126C9 /* ServiceProxy.framework */; };
 		2BA7162D2C7B7A2800F126C9 /* ServiceProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BA7161F2C7B7A2800F126C9 /* ServiceProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BA716422C7B864B00F126C9 /* PNRService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA716412C7B864B00F126C9 /* PNRService.m */; };
@@ -15,10 +19,6 @@
 		2BA716452C7B864B00F126C9 /* PNRServiceInvocationScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA7163F2C7B864B00F126C9 /* PNRServiceInvocationScope.m */; };
 		2BA716462C7B864B00F126C9 /* PNRServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA7163D2C7B864B00F126C9 /* PNRServiceManager.m */; };
 		2BA716472C7B864B00F126C9 /* PNRServiceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA716362C7B864B00F126C9 /* PNRServiceInfo.m */; };
-		2BA716502C7B8FA300F126C9 /* NSObject+PNRPropertyInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA7164C2C7B8FA200F126C9 /* NSObject+PNRPropertyInspector.m */; };
-		2BA716512C7B8FA300F126C9 /* PNRObjectPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BA7164D2C7B8FA200F126C9 /* PNRObjectPopulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BA716522C7B8FA300F126C9 /* NSObject+PNRPropertyInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BA7164E2C7B8FA300F126C9 /* NSObject+PNRPropertyInspector.h */; };
-		2BA716532C7B8FA300F126C9 /* PNRObjectPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA7164F2C7B8FA300F126C9 /* PNRObjectPopulator.m */; };
 		2BA7165B2C7B940A00F126C9 /* NSDictionary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA7165A2C7B940A00F126C9 /* NSDictionary+Additions.m */; };
 		2BA7165E2C7B94F200F126C9 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA7165D2C7B94F200F126C9 /* NSString+Additions.m */; };
 		2BA7165F2C7B9FDE00F126C9 /* PNRService.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BA7163A2C7B864B00F126C9 /* PNRService.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -49,6 +49,10 @@
 
 /* Begin PBXFileReference section */
 		2B7206012C9596A7007F1AC1 /* PNRNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRNetworkManager.h; sourceTree = "<group>"; };
+		2B7206032C95B521007F1AC1 /* NSObject+PNRPropertyInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PNRPropertyInspector.m"; sourceTree = "<group>"; };
+		2B7206042C95B521007F1AC1 /* NSObject+PNRPropertyInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PNRPropertyInspector.h"; sourceTree = "<group>"; };
+		2B7206052C95B521007F1AC1 /* PNRObjectPopulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRObjectPopulator.m; sourceTree = "<group>"; };
+		2B7206062C95B521007F1AC1 /* PNRObjectPopulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRObjectPopulator.h; sourceTree = "<group>"; };
 		2BA7161C2C7B7A2800F126C9 /* ServiceProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ServiceProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA7161F2C7B7A2800F126C9 /* ServiceProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceProxy.h; sourceTree = "<group>"; };
 		2BA716262C7B7A2800F126C9 /* ServiceProxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServiceProxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,10 +66,6 @@
 		2BA7163E2C7B864B00F126C9 /* PNRServiceProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNRServiceProxy.m; sourceTree = "<group>"; };
 		2BA7163F2C7B864B00F126C9 /* PNRServiceInvocationScope.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNRServiceInvocationScope.m; sourceTree = "<group>"; };
 		2BA716412C7B864B00F126C9 /* PNRService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNRService.m; sourceTree = "<group>"; };
-		2BA7164C2C7B8FA200F126C9 /* NSObject+PNRPropertyInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PNRPropertyInspector.m"; path = "../../../Downloads/ForteBank-iOS/Carthage/Checkouts/PZTFoundation-iOS/PZTFoundation/ObjectUtility/NSObject+PNRPropertyInspector.m"; sourceTree = "<group>"; };
-		2BA7164D2C7B8FA200F126C9 /* PNRObjectPopulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PNRObjectPopulator.h; path = "../../../Downloads/ForteBank-iOS/Carthage/Checkouts/PZTFoundation-iOS/PZTFoundation/ObjectUtility/PNRObjectPopulator.h"; sourceTree = "<group>"; };
-		2BA7164E2C7B8FA300F126C9 /* NSObject+PNRPropertyInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+PNRPropertyInspector.h"; path = "../../../Downloads/ForteBank-iOS/Carthage/Checkouts/PZTFoundation-iOS/PZTFoundation/ObjectUtility/NSObject+PNRPropertyInspector.h"; sourceTree = "<group>"; };
-		2BA7164F2C7B8FA300F126C9 /* PNRObjectPopulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PNRObjectPopulator.m; path = "../../../Downloads/ForteBank-iOS/Carthage/Checkouts/PZTFoundation-iOS/PZTFoundation/ObjectUtility/PNRObjectPopulator.m"; sourceTree = "<group>"; };
 		2BA716592C7B93FA00F126C9 /* NSDictionary+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Additions.h"; sourceTree = "<group>"; };
 		2BA7165A2C7B940A00F126C9 /* NSDictionary+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Additions.m"; sourceTree = "<group>"; };
 		2BA7165C2C7B94E400F126C9 /* NSString+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
@@ -129,11 +129,11 @@
 			isa = PBXGroup;
 			children = (
 				2BA716662C7BADBD00F126C9 /* PNRObjectiveCRuntimeAdditions */,
-				2BA7164E2C7B8FA300F126C9 /* NSObject+PNRPropertyInspector.h */,
-				2BA7164C2C7B8FA200F126C9 /* NSObject+PNRPropertyInspector.m */,
-				2BA7164D2C7B8FA200F126C9 /* PNRObjectPopulator.h */,
-				2BA7164F2C7B8FA300F126C9 /* PNRObjectPopulator.m */,
 				2BA7161F2C7B7A2800F126C9 /* ServiceProxy.h */,
+				2B7206042C95B521007F1AC1 /* NSObject+PNRPropertyInspector.h */,
+				2B7206032C95B521007F1AC1 /* NSObject+PNRPropertyInspector.m */,
+				2B7206062C95B521007F1AC1 /* PNRObjectPopulator.h */,
+				2B7206052C95B521007F1AC1 /* PNRObjectPopulator.m */,
 				2B7206012C9596A7007F1AC1 /* PNRNetworkManager.h */,
 				2BA7163A2C7B864B00F126C9 /* PNRService.h */,
 				2BA716412C7B864B00F126C9 /* PNRService.m */,
@@ -190,15 +190,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BA716512C7B8FA300F126C9 /* PNRObjectPopulator.h in Headers */,
 				2BA716602C7B9FF200F126C9 /* PNRServiceInfo.h in Headers */,
 				2BA716622C7BA00400F126C9 /* PNRServiceInvocationScope.h in Headers */,
 				2BA716612C7B9FFC00F126C9 /* PNRServiceManager.h in Headers */,
-				2BA716522C7B8FA300F126C9 /* NSObject+PNRPropertyInspector.h in Headers */,
 				2BA716672C7BADBD00F126C9 /* PNRBlockDescription.h in Headers */,
+				2B7206022C9596A7007F1AC1 /* PNRNetworkManager.h in Headers */,
+				2B72060A2C95B521007F1AC1 /* PNRObjectPopulator.h in Headers */,
+				2B7206082C95B521007F1AC1 /* NSObject+PNRPropertyInspector.h in Headers */,
 				2BA7165F2C7B9FDE00F126C9 /* PNRService.h in Headers */,
 				2BA7162D2C7B7A2800F126C9 /* ServiceProxy.h in Headers */,
-				2B7206022C9596A7007F1AC1 /* PNRNetworkManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,15 +300,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BA716682C7BADBD00F126C9 /* PNRBlockDescription.m in Sources */,
-				2BA716532C7B8FA300F126C9 /* PNRObjectPopulator.m in Sources */,
 				2BA7165B2C7B940A00F126C9 /* NSDictionary+Additions.m in Sources */,
 				2BA716432C7B864B00F126C9 /* PNRServiceProxy.m in Sources */,
 				2BA716452C7B864B00F126C9 /* PNRServiceInvocationScope.m in Sources */,
 				2BA7165E2C7B94F200F126C9 /* NSString+Additions.m in Sources */,
 				2BA716472C7B864B00F126C9 /* PNRServiceInfo.m in Sources */,
 				2BA716422C7B864B00F126C9 /* PNRService.m in Sources */,
+				2B7206072C95B521007F1AC1 /* NSObject+PNRPropertyInspector.m in Sources */,
+				2B7206092C95B521007F1AC1 /* PNRObjectPopulator.m in Sources */,
 				2BA716462C7B864B00F126C9 /* PNRServiceManager.m in Sources */,
-				2BA716502C7B8FA300F126C9 /* NSObject+PNRPropertyInspector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

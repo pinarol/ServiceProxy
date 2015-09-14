@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <PNRServiceInfo.h>
+#import <ServiceProxy/PNRServiceInfo.h>
 
 typedef void(^PNRRequestCompletion)(NSError *error, id data);
 
